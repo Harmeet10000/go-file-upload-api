@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/Harmeet10000/go-file-upload-api/localstorage"
-	"github.com/Harmeet10000/go-file-upload-api/s3storage"
+	localstorage "github.com/Harmeet10000/go-file-upload-api/localStorage"
+	s3storage "github.com/Harmeet10000/go-file-upload-api/s3Storage"
 	"github.com/gin-gonic/gin"
 )
 
